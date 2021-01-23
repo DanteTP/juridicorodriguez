@@ -1,11 +1,53 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
 
 a {
-  color: #00B7FF;
+  color: white;
+  text-decoration: none;
+}
+
+.container{
+  background-color: aqua;
+  height: 300vh;
+  margin-top: 25vh;
 }
 
 
+ul  {
+list-style: none;
+padding: 0px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+height: 15vh;
+}
 
+li{
+  width: 20%;
+  background-color: teal;
+  text-align: center;
+  font-size: 170%;
+  height: 5vh;
+  line-height: 5vh;
+}
+
+nav {
+
+  color: antiquewhite;
+}
+
+.about{
+  background-color: tomato;
+  margin-top: 2%;
+  height: 50vh;
+}
+
+.us{
+  background-color: tomato;
+  margin-top: 2%;
+  height: 50vh;
+}
+.contact{
+  background-color: tomato;
+  margin-top: 2%;
+  height: 50vh;
+}
