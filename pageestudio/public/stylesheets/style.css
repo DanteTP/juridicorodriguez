@@ -6,8 +6,8 @@ a {
 
 .container{
   background-color: aqua;
-  height: 300vh;
-  margin-top: 25vh;
+  margin-top: -2.3vh;
+  height: 265vh;
 }
 
 
@@ -19,6 +19,7 @@ flex-direction: row;
 justify-content: space-around;
 align-items: center;
 height: 15vh;
+
 }
 
 li{
@@ -28,26 +29,40 @@ li{
   font-size: 170%;
   height: 5vh;
   line-height: 5vh;
+  border-radius: 20px;
 }
 
 nav {
-
+  background-color: teal;
   color: antiquewhite;
 }
 
 .about{
   background-color: tomato;
-  margin-top: 2%;
-  height: 50vh;
+  height: 80vh;
+  padding-top: 22vh;
+  margin-top: 0%;
 }
 
 .us{
   background-color: tomato;
   margin-top: 2%;
-  height: 50vh;
+  height: 80vh;
+  padding-top: 20vh;
 }
 .contact{
   background-color: tomato;
   margin-top: 2%;
-  height: 50vh;
+  height: 80vh;
+  padding-top: 20vh;
+}
+
+
+footer{
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 5vh;
+  background-color: black;
+  color: white;
 }
